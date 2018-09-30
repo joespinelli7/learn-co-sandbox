@@ -21,7 +21,5 @@ def assign_rooms(speakers)
     speakers2 << ("Hello, #{name}! You'll be assigned to room #{rooms}!")
     count += 1 
   end
- # rooms.each_with_index do |room_number|
- # puts "Hello #{speakers}, You will be assigned to room #{room_number}."
-  end
+ return speakers2
 end
