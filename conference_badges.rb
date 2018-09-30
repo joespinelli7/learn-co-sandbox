@@ -3,3 +3,5 @@ def badge_maker
   name = gets.chomp
   "Hello, my name is #{name}."
 end
+
+def 
