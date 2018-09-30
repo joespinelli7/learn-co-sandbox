@@ -10,3 +10,4 @@ def batch_badge_creator(speakers)
     puts "Here is #{name}."
   end
 end
+
