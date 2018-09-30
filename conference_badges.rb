@@ -12,4 +12,5 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
-  rooms = (1..7)
+  rooms = [1, 2, 3, 4, 5, 6, 7]
+  
