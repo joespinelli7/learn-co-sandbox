@@ -18,7 +18,7 @@ def assign_rooms(speakers)
  speakers2 = []
  rooms = [1, 2, 3, 4, 5, 6, 7]
  speakers.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{rooms}!")
+    .push("Hello, #{name}! You'll be assigned to room #{rooms}!")
  # rooms.each_with_index do |room_number|
  # puts "Hello #{speakers}, You will be assigned to room #{room_number}."
   end
