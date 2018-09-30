@@ -1,0 +1,11 @@
+team = gets.chomp
+
+if team == "Steelers"
+ puts "The best nfl team is the Steelers."
+elsif team == "Patriots"
+ puts "The team that cheats the most is the Patriots."
+elsif team == "Bengals"
+ puts "The dirtiest teams are the Bengals and Ravens."
+else
+  puts "No other team matters."
+end
